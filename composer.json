@@ -1,0 +1,27 @@
+{
+	"name": "fogeytron/USPS-php-api-sample-app",
+	"description": "Sample App using the USPS PHP Api",
+	"version": "0.0.1",
+	"keywords": ["portal", "business"],
+	"repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "fogeytron/usps-php-api",
+                "version": "1.0.0",
+                "dist": {
+                    "url": "https://github.com/fogeytron/usps-php-api/zipball/master",
+                    "type": "zip"
+                },
+                "autoload": {
+                    "psr-0": { "Usps": "src/" }
+                },
+                "target-dir": ""
+            }
+        }
+    ],
+    "require": {
+		"fogeytron/usps-php-api": "1.0.0"
+	},
+    "minimum-stability": "dev"
+}
